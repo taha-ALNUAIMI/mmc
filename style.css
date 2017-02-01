@@ -1,0 +1,44 @@
+body{
+  width: 900px;
+  border: 2px black dotted;
+  margin: 0 auto;
+
+}
+nav{
+  line-height: 10px;
+  display: inline-block;
+
+  font-size: 13px;
+}
+li{
+  text-decoration: none;
+  display: inline-block;
+  color: red;
+  padding: 1px 3px;
+  text-height: 2px;
+  margin: 0 7px;
+
+}
+.sign{
+  border-radius: 1px red sold;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  margin: 5px 7px;
+  border-radius: 5px;
+  text-height: 5px;
+  float: right;
+}
+#main{
+  width: auto;
+  height:500px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+footer{
+  color: red;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+}

@@ -83,7 +83,7 @@ h1, h2{
 
 #videoMma{
 	transform: scale(1.12, 0.75);
-	opacity: 0.8;
+	opacity: 1;
 }
 
 #videodiv{
@@ -115,10 +115,9 @@ h1, h2{
 
 #coach{
 width: 100%;
-height: 800px;
+height: 700px;
 background-color: white;
-border : 2px solid black;
-padding-top: 100px;
+padding-top: 80px;
 }
 
 #gsp{
@@ -162,7 +161,7 @@ body{
 #trait{
 	background-color:rgb(235, 235, 235);
 	width: 91%;
-	height: 3px;
+	height: 2px;
 	margin-left: 35px;
 	margin-right: 38px;
 	margin-top: 31px;
@@ -181,7 +180,7 @@ body{
 #georges{
 	display: flex;
 	flex-direction: row;
-	margin-top: 95px;
+	margin-top: 145px;
 }
 
 
@@ -193,7 +192,134 @@ body{
 }
 
 .element:nth-child(1){
-	padding-left: 27px;
+	padding-left: 20px;
 	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+}
 
+.element:nth-child(3){
+	padding-left: 13px;
+	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+
+}
+
+#coach h2{
+	text-shadow: 2px 2px 2px silver;
+}
+
+/* Mahanna
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Courgette|Open+Sans');
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
+*{
+  box-sizing: padding-box;
+}
+
+#containerM{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(236, 236, 236, 1);
+  height: 500px;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.containerelement{
+  display: flex;
+  justify-content: space-around;
+}
+
+.elementM{
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 150px;
+  box-shadow: 0px 5px 5px black;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.elementM img{
+  width: 150px;
+  height: 130px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.elementM p{
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  height: 30px;
+  width: 150px;
+}
+
+.elementM:hover{
+  background-color: rgb(203, 203, 203);
+}
+
+#titleb{
+  text-align: center;
+  color: black;
+  font-family: 'Courgette', serif;
+}
+
+.boutonb{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  height: auto;
+  width: 20%;
+  background-color: #BF0000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #090000;
+}
+
+.boutonb:hover{
+  color: red;
+  background-color: white;
+}
+
+#container2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+#titleb2{
+  text-align: center;
+  color: black;
+  font-family: 'Courgette', serif;
+  padding-bottom: 25px;
+}
+
+.icon{
+  text-align: center;
+  color: red;
+}
+
+.icon img{
+  width:50px;
+}
+
+.textb{
+  color: rgb(125, 125, 125);
+  font-family: 'Open sans';
+  font-size: 13px;
 }

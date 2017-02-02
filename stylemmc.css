@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Courgette|Open+Sans');
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
+*{
+  box-sizing: padding-box;
+}
+
+#container{
+  display: flex;
+  justify-content: space-around;
+  background-color: #7F0000;
+  height: 450px;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.containerelement{
+  display: flex;
+  justify-content: space-around;
+}
+
+.element{
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 150px;
+  box-shadow: 0px 7px 7px black;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.element img{
+  width: 150px;
+  height: 130px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.element p{
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  height: 30px;
+  width: 150px;
+}
+
+.element:hover{
+  background-color: rgb(203, 203, 203);
+}
+
+#titleb{
+  text-align: center;
+  color: white;
+  font-family: 'Courgette', serif;
+  text-shadow: 2px 2px 4px #090000;
+}
+
+.boutonb{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  height: auto;
+  width: 20%;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  box-shadow: 0px 7px 7px #090000;
+}
+
+.boutonb:hover{
+  color: red;
+  background-color: white;
+}
+
+#container2{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+#titleb2{
+  text-align: center;
+  color: black;
+  font-family: 'Courgette', serif;
+  padding-bottom: 25px;
+}
+
+.icon{
+  text-align: center;
+  color: red;
+}
+
+.icon img{
+  width:50px;
+}
+
+.textb{
+  color: rgb(125, 125, 125);
+  font-family: 'Open sans';
+  font-size: 13px;
+}

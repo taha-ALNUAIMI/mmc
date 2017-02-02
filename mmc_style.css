@@ -2,15 +2,17 @@
 	margin: 0;
 	padding: 0;
 	background-color: white;
+	width: 100%;
 }
 
 #logo{
 	margin: 0;
-	margin-left: -10px;
+	margin-left: -20px;
+	margin-top: 5px;
 	padding: 0;
 	position: absolute;
 	top: -2px;
-	left: 5px;
+	left: 19px;
 	width: 165px;
 	height: 85px;
 	margin-right: 60px;
@@ -80,12 +82,14 @@ h1, h2{
 }
 
 #videoMma{
-	transform: scale(1.25, 0.75);
+	transform: scale(1.12, 0.75);
+	opacity: 0.8;
 }
 
 #videodiv{
 	padding: 0;
 	margin: 0;
+	width: 100%;
 }
 
 
@@ -96,3 +100,113 @@ h1, h2{
 }
 
 
+.element{
+	line-height: 0.7em;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 145px;
+}
+
+
+
+#coach{
+width: 100%;
+height: 800px;
+background-color: white;
+border : 2px solid black;
+padding-top: 100px;
+}
+
+#gsp{
+	border-radius: 360px;
+	box-shadow: 2px 2px 2px silver;
+}
+
+
+
+footer{
+	font-size: 0.85em;
+	padding-top: 250px;
+background-color: rgb(88, 100, 101);
+color: rgb(244, 244, 244);
+margin-bottom: 0;
+padding-bottom: 6px;
+}
+
+body{
+	margin: O;
+}
+
+#ronds{
+	
+	width: 250px;
+	height: 85px;
+	margin-left: 869px;
+	margin-top: -65px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.rond{
+
+	background-color: rgb(180, 180, 180);
+	width: 41px;
+	height: 41px;
+	border-radius: 180px;
+}
+
+#trait{
+	background-color:rgb(235, 235, 235);
+	width: 91%;
+	height: 3px;
+	margin-left: 35px;
+	margin-right: 38px;
+	margin-top: 31px;
+	
+
+}
+
+#champ{
+	float: left;
+}
+
+#couch{
+	float: right;
+}
+
+#georges{
+	display: flex;
+	flex-direction: row;
+	margin-top: 95px;
+}
+
+
+.element{
+	width: 400px;
+	line-height: 1.5em;
+	
+	padding-top : 30px;
+}
+
+.element:nth-child(1){
+	padding-left: 20px;
+	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+}
+
+.element:nth-child(3){
+	padding-left: 13px;
+	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+
+}
+
+#coach h2{
+	text-shadow: 2px 2px 2px silver;
+}

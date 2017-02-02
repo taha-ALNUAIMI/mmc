@@ -83,7 +83,8 @@ h1, h2{
 
 #videoMma{
 	transform: scale(1.12, 0.75);
-	opacity: 1;
+
+	opacity: 0.8;
 }
 
 #videodiv{
@@ -115,6 +116,7 @@ h1, h2{
 
 #coach{
 width: 100%;
+
 height: 700px;
 background-color: white;
 padding-top: 80px;
@@ -181,6 +183,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	margin-top: 145px;
+
 }
 
 
@@ -208,13 +211,14 @@ body{
 
 #coach h2{
 	text-shadow: 2px 2px 2px silver;
+<<<<<<< HEAD
 }
 
-/* Mahanna
+/* Mahana
 */
 
 @import url('https://fonts.googleapis.com/css?family=Arvo|Courgette|Open+Sans');
-
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 body{
   margin: 0;
   font-family: 'Open Sans', serif;
@@ -227,7 +231,7 @@ body{
 #containerM{
   display: flex;
   justify-content: space-around;
-  background-color: rgba(236, 236, 236, 1);
+  background-color: rgb(236, 236, 238);
   height: 500px;
   flex-direction: column;
   padding-top: 2%;
@@ -270,7 +274,7 @@ body{
 #titleb{
   text-align: center;
   color: black;
-  font-family: 'Courgette', serif;
+  font-family: 'Bitter', serif;
 }
 
 .boutonb{
@@ -294,6 +298,7 @@ body{
 }
 
 #container2{
+
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -322,4 +327,54 @@ body{
   color: rgb(125, 125, 125);
   font-family: 'Open sans';
   font-size: 13px;
+
+}
+
+@media all and (max-width: 920px)
+{
+    body
+    {
+        width: auto;
+    }
+    #containerM{
+      display: flex;
+      background-color: rgb(236, 236, 238);
+      height: 100%;
+      flex-direction: column;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .containerelement{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .elementM{
+      text-align: center;
+      color: black;
+      background-color: white;
+      width: 150px;
+      box-shadow: 0px 5px 5px black;
+      border-radius: 5px;
+      padding: 3px;
+      margin: 30px;
+    }
+
+    .elementM img{
+      width: 150px;
+      height: 130px;
+      border-radius: 5px 5px 0px 0px;
+    }
+
+    .elementM p{
+      display: flex;
+      justify-content: space-around;
+      font-size: 13px;
+      height: 30px;
+      width: 150px;
+    }
 }

@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Open+Sans');
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
+#page{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	width: 100%;
+}
+
+#logo{
+	margin: 0;
+	margin-left: -20px;
+	margin-top: 5px;
+	padding: 0;
+	position: absolute;
+	top: -2px;
+	left: 19px;
+	width: 165px;
+	height: 85px;
+	margin-right: 60px;
+}
+
+
+#sign, #recherche{
+	position: relative;
+	top: 20px;
+	font-size: 1em;
+}
+
+
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 100%;
+
+margin-top: 20px;
+
+font-size: 18px;
+font-family: 'Arvo';
+margin-bottom: 0;
+padding-bottom: 0;
+height:2px;
+}
+li{
+ text-decoration: none;
+  display: inline-block;
+  color: red;
+  padding: 1px 3px;
+  text-height: 2px;
+  margin: 0 7px;
+
+}
+.sign{
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 10px 10px;
+  margin: 5px 7px;
+  border-radius: 5px;
+  font-size: 0.7em;
+  float: right;
+  text-align: center;
+}
+
+.sign2{
+  text-decoration: none;
+  background-color: rgb(94, 1, 1);
+  color: white;
+  padding: 10px 10px;
+  margin: 5px 7px;
+  border-radius: 5px;
+  font-size: 0.7em;
+  float: right;
+  text-align: center;
+}
+
+.sign2:hover{
+  background-color: white;
+  color: black;
+}
+
+.sign:hover{
+  background-color: white;
+  color: black;
+}
+
+
+
+h1, h2{
+	text-align: center;
+  font-family: 'Arvo';
+}
+#videodiv h1{
+	font-size: 4em;
+	font-weight: bold;
+	position: absolute;
+	top: 170px;
+	left: 195px;
+	color: rgb(196, 196, 196);
+}
+
+
+#videodiv h2{
+	font-size: 1.8em;
+	color: rgb(136, 136, 136);
+	font-weight: bold;
+	position: absolute;
+	top: 320px;
+	left: 268px;
+}
+
+#videoMma{
+	transform: scale(1.12, 0.75);
+
+	opacity: 0.8;
+}
+
+#videodiv{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+
+
+#slogan{
+	background-color: white;
+	color: red;
+}
+
+
+.element{
+	line-height: 0.7em;
+}
+
+
+#coach{
+width: 100%;
+
+height: 700px;
+background-color: white;
+padding-top: 80px;
+}
+
+#gsp{
+	border-radius: 360px;
+	box-shadow: 2px 2px 2px silver;
+}
+
+#champ{
+	float: left;
+}
+
+#couch{
+	float: right;
+}
+
+#georges{
+	display: flex;
+	flex-direction: row;
+	margin-top: 145px;
+}
+
+
+.element{
+	width: 400px;
+	line-height: 1.5em;
+
+	padding-top : 30px;
+}
+
+.element:nth-child(1){
+	padding-left: 20px;
+	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+}
+
+.element:nth-child(3){
+	padding-left: 13px;
+	line-height: 1.8em;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+}
+
+#coach h2{
+	text-shadow: 2px 2px 2px silver;
+}
+
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 145px;
+}
+
+footer{
+font-size: 0.85em;
+padding-top: 120px;
+background-color: rgb(88, 100, 101);
+color: rgb(244, 244, 244);
+margin-bottom: 0;
+padding-bottom: 6px;
+}
+
+.social {
+  list-type-type: none;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: -65px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 300%;
+  margin: 1%;
+  padding: 0% 5% 0% 5%;
+  color: #C3D7DF;
+}
+.social i:hover {
+  color: red;
+}
+
+#trait{
+	background-color:rgb(235, 235, 235);
+	width: 91%;
+	height: 2px;
+	margin-left: 35px;
+	margin-right: 38px;
+	margin-top: 31px;
+  margin-bottom: 10px;
+}
+
+/* Mahana
+*/
+
+
+*{
+  box-sizing: padding-box;
+}
+
+#containerM{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(236, 236, 238);
+  height: 500px;
+  flex-direction: column;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.containerelement{
+  display: flex;
+  justify-content: space-around;
+}
+
+.elementM{
+  text-align: center;
+  color: black;
+  background-color: white;
+  width: 150px;
+  box-shadow: 0px 5px 5px black;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.elementM img{
+  width: 150px;
+  height: 130px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.elementM p{
+  display: flex;
+  justify-content: space-around;
+  font-size: 13px;
+  height: 30px;
+  width: 150px;
+}
+
+.elementM:hover{
+  background-color: rgb(203, 203, 203);
+}
+
+#titleb{
+  text-align: center;
+  color: black;
+  font-family: 'Arvo', serif;
+}
+
+.boutonb{
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  height: auto;
+  width: 20%;
+  background-color: #BF0000;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px #090000;
+}
+
+.boutonb:hover{
+  color: red;
+  background-color: white;
+}
+
+#container2{
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 3%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+#titleb2{
+  text-align: center;
+  color: black;
+  font-family: 'Arvo', serif;
+  padding-bottom: 25px;
+}
+
+.icon{
+  text-align: center;
+  color: red;
+}
+
+.icon img{
+  width:50px;
+}
+
+.textb{
+  color: rgb(125, 125, 125);
+  font-family: 'Open sans';
+  font-size: 13px;
+
+}
+
+@media all and (max-width: 750px)
+{
+    body
+    {
+        width: auto;
+    }
+    #containerM{
+      display: flex;
+      background-color: rgb(236, 236, 238);
+      height: 100%;
+      flex-direction: column;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      margin: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .containerelement{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .elementM{
+      text-align: center;
+      color: black;
+      background-color: white;
+      width: 150px;
+      box-shadow: 0px 5px 5px black;
+      border-radius: 5px;
+      padding: 3px;
+      margin: 30px;
+    }
+
+    .elementM img{
+      width: 150px;
+      height: 130px;
+      border-radius: 5px 5px 0px 0px;
+    }
+
+    .elementM p{
+      display: flex;
+      justify-content: space-around;
+      font-size: 13px;
+      height: 30px;
+      width: 150px;
+    }
+
+    #gsp img{
+      height: 40%;
+      width: 40%;
+    }
+}

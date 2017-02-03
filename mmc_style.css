@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Arvo|Open+Sans');
 
 body{
@@ -42,7 +43,9 @@ width: 100%;
 margin-top: 20px;
 
 font-size: 18px;
+
 font-family: 'Arvo';
+
 margin-bottom: 0;
 padding-bottom: 0;
 height:2px;
@@ -60,11 +63,14 @@ li{
   text-decoration: none;
   background-color: red;
   color: white;
+
   padding: 10px 10px;
+
   margin: 5px 7px;
   border-radius: 5px;
   font-size: 0.7em;
   float: right;
+
   text-align: center;
 }
 
@@ -140,6 +146,14 @@ h1, h2{
 }
 
 
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 145px;
+}
+
+
 #coach{
 width: 100%;
 
@@ -151,6 +165,49 @@ padding-top: 80px;
 #gsp{
 	border-radius: 360px;
 	box-shadow: 2px 2px 2px silver;
+}
+
+
+footer{
+	font-size: 0.85em;
+	padding-top: 250px;
+background-color: rgb(88, 100, 101);
+color: rgb(244, 244, 244);
+margin-bottom: 0;
+padding-bottom: 6px;
+}
+
+body{
+	margin: O;
+}
+
+#ronds{
+	
+	width: 250px;
+	height: 85px;
+	margin-left: 869px;
+	margin-top: -65px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.rond{
+
+	background-color: rgb(180, 180, 180);
+	width: 41px;
+	height: 41px;
+	border-radius: 180px;
+}
+
+#trait{
+	background-color:rgb(235, 235, 235);
+	width: 91%;
+	height: 2px;
+	margin-left: 35px;
+	margin-right: 38px;
+	margin-top: 31px;
+	
+
 }
 
 #champ{
@@ -187,10 +244,12 @@ padding-top: 80px;
 	line-height: 1.8em;
 	text-align: center;
 	text-shadow: 2px 2px 2px silver;
+
 }
 
 #coach h2{
 	text-shadow: 2px 2px 2px silver;
+
 }
 
 #conteneur{
@@ -210,7 +269,7 @@ padding-bottom: 6px;
 }
 
 .social {
-  list-type-type: none;
+  list-style-type: none;
   text-align: center;
   margin-left: 800px;
   margin-top: -65px;
@@ -242,8 +301,6 @@ padding-bottom: 6px;
   margin-bottom: 10px;
 }
 
-/* Mahana
-*/
 
 
 *{
@@ -332,7 +389,9 @@ padding-bottom: 6px;
 #titleb2{
   text-align: center;
   color: black;
+
   font-family: 'Arvo', serif;
+
   padding-bottom: 25px;
 }
 
@@ -352,7 +411,9 @@ padding-bottom: 6px;
 
 }
 
+
 @media all and (max-width: 750px)
+
 {
     body
     {
@@ -400,8 +461,10 @@ padding-bottom: 6px;
       width: 150px;
     }
 
+
     #gsp img{
       height: 40%;
       width: 40%;
     }
 }
+

@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Arvo|Open+Sans');
+
+body{
+  margin: 0;
+  font-family: 'Open Sans', serif;
+}
+
 #page{
 	margin: 0;
 	padding: 0;
@@ -35,6 +43,9 @@ width: 100%;
 margin-top: 20px;
 
 font-size: 18px;
+
+font-family: 'Arvo';
+
 margin-bottom: 0;
 padding-bottom: 0;
 height:2px;
@@ -52,15 +63,44 @@ li{
   text-decoration: none;
   background-color: red;
   color: white;
-  padding: 2px 5px;
+
+  padding: 10px 10px;
+
   margin: 5px 7px;
   border-radius: 5px;
   font-size: 0.7em;
   float: right;
+
+  text-align: center;
 }
+
+.sign2{
+  text-decoration: none;
+  background-color: rgb(94, 1, 1);
+  color: white;
+  padding: 10px 10px;
+  margin: 5px 7px;
+  border-radius: 5px;
+  font-size: 0.7em;
+  float: right;
+  text-align: center;
+}
+
+.sign2:hover{
+  background-color: white;
+  color: black;
+}
+
+.sign:hover{
+  background-color: white;
+  color: black;
+}
+
+
 
 h1, h2{
 	text-align: center;
+  font-family: 'Arvo';
 }
 #videodiv h1{
 	font-size: 4em;
@@ -105,13 +145,13 @@ h1, h2{
 	line-height: 0.7em;
 }
 
+
 #conteneur{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-right: 145px;
 }
-
 
 
 #coach{
@@ -126,7 +166,6 @@ padding-top: 80px;
 	border-radius: 360px;
 	box-shadow: 2px 2px 2px silver;
 }
-
 
 
 footer{
@@ -183,14 +222,13 @@ body{
 	display: flex;
 	flex-direction: row;
 	margin-top: 145px;
-
 }
 
 
 .element{
 	width: 400px;
 	line-height: 1.5em;
-	
+
 	padding-top : 30px;
 }
 
@@ -211,18 +249,59 @@ body{
 
 #coach h2{
 	text-shadow: 2px 2px 2px silver;
-<<<<<<< HEAD
+
 }
 
-/* Mahana
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Arvo|Courgette|Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Bitter');
-body{
-  margin: 0;
-  font-family: 'Open Sans', serif;
+#conteneur{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 145px;
 }
+
+footer{
+font-size: 0.85em;
+padding-top: 120px;
+background-color: rgb(88, 100, 101);
+color: rgb(244, 244, 244);
+margin-bottom: 0;
+padding-bottom: 6px;
+}
+
+.social {
+  list-style-type: none;
+  text-align: center;
+  margin-left: 800px;
+  margin-top: -65px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social li {
+  display: inline;
+}
+
+.social i {
+  font-size: 300%;
+  margin: 1%;
+  padding: 0% 5% 0% 5%;
+  color: #C3D7DF;
+}
+.social i:hover {
+  color: red;
+}
+
+#trait{
+	background-color:rgb(235, 235, 235);
+	width: 91%;
+	height: 2px;
+	margin-left: 35px;
+	margin-right: 38px;
+	margin-top: 31px;
+  margin-bottom: 10px;
+}
+
+
 
 *{
   box-sizing: padding-box;
@@ -274,7 +353,7 @@ body{
 #titleb{
   text-align: center;
   color: black;
-  font-family: 'Bitter', serif;
+  font-family: 'Arvo', serif;
 }
 
 .boutonb{
@@ -310,7 +389,9 @@ body{
 #titleb2{
   text-align: center;
   color: black;
-  font-family: 'Courgette', serif;
+
+  font-family: 'Arvo', serif;
+
   padding-bottom: 25px;
 }
 
@@ -330,7 +411,9 @@ body{
 
 }
 
-@media all and (max-width: 920px)
+
+@media all and (max-width: 750px)
+
 {
     body
     {
@@ -377,4 +460,11 @@ body{
       height: 30px;
       width: 150px;
     }
+
+
+    #gsp img{
+      height: 40%;
+      width: 40%;
+    }
 }
+
